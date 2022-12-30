@@ -1,6 +1,6 @@
 :root {
   --primary: #1BDAA9;
-  --dark: #292929;
+  --dark: #1E1E1E;
   --secondary: #242424;
   --white: #ffffff;
 }
@@ -158,7 +158,7 @@ input{
 }
 
 .hero_text{
-  padding-top: 51px;
+  padding-top: 45px;
   width: 565px;
   height: 115px;
   font-family: 'Poppins';
@@ -264,3 +264,117 @@ input{
 .faq_container{
   padding-top: 113px;
 }
+
+.faq_container p{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #F4F4F4;
+}
+
+.faq_content{
+  padding: 66px 0 69px 0;
+}
+
+details{
+  max-width: 1059px;
+  background: var(--primary);
+  opacity: 0.6;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 34px;
+  padding: 20px 75px 0 33px;
+}
+
+details:last-child{
+  margin-bottom: 0;
+}
+
+details summary{
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #242424;
+}
+
+
+details div{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\2039";
+  transform: rotate(-90deg);
+}
+
+details[open] summary {
+    margin-bottom: 9px;
+}
+
+details[open] summary:after{
+  content: "\2039";
+  transform: rotate(-90deg);
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+
+footer p{
+  max-width: 389px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: var(--white);
+}
+
+footer img{
+  max-width: 144px;
+  vertical-align: top;
+}
+
+footer .socials{
+  width: 202px;
+  filter: blur(0.5px) drop-shadow(2px 2px 2px #1BDAA9);
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+}
+
+footer div:first-child {
+  max-width: 587px;
+}
+
+footer div:first-child div{
+  display: inline-block;
+}
+footer div:first-child div:nth-child(2){
+  max-width: 389px;
+  padding-top: 10px;
+  padding-right: 0;
+}
+
+
