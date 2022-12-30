@@ -34,6 +34,7 @@ img {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 .nav{
@@ -340,6 +341,14 @@ details[open] div{
   padding: .5em 1em;
 }
 
+footer {
+  padding-left: 79px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 260px;
+  padding-bottom: 28px;
+}
+
 footer p{
   max-width: 389px;
   font-family: 'Poppins';
@@ -348,6 +357,7 @@ footer p{
   font-size: 12px;
   text-align: center;
   color: var(--white);
+  padding-left: 54px;
 }
 
 footer img{
@@ -368,13 +378,75 @@ footer div:first-child {
   max-width: 587px;
 }
 
-footer div:first-child div{
+footer div{
   display: inline-block;
 }
+
 footer div:first-child div:nth-child(2){
   max-width: 389px;
   padding-top: 10px;
   padding-right: 0;
 }
+
+.footer_title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary);
+}
+
+footer div:nth-child(2) ul{
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.footer-link{
+  color: var(--white);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.footer_link{
+  display: flex;
+  justify-content: space-between;
+  width: 278px;
+}
+
+footer div:nth-child(2) div{
+  text-align: left;
+  display: inline-block;
+}
+
+.v_line{
+  border-left: 0.5px dashed #D5D5D5;
+  height: 162px;
+  width: 2px;
+}
+
+.h_line{
+  border-bottom: 0.5px dashed #D5D5D5;
+  width: 792px;
+  margin: auto;
+}
+
+.last_text{
+  padding: 17px 0 17px 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.last_text span{
+  color: var(--primary);
+}
+
+
+
 
 
